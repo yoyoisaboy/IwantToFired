@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>離職倒數100天計數器</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>離職倒數100天計數器</h1>
+    <p>點擊每個格子來記錄離職原因</p>
+    <div class="grid" id="grid"></div>
+    <button id="clearDataButton">清除所有資料</button>
+  </div>
+
+  <!-- 彈出視窗 -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h3>輸入離職原因</h3>
+      <textarea id="inputBox" placeholder="輸入你的離職原因..."></textarea>
+      <button id="confirmButton">確認</button>
+      <button id="clearContentButton">清除內容</button> <!-- 清除內容的按鈕 -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
