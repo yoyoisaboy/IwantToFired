@@ -31,7 +31,7 @@ body {
   background-color: lightgreen;
   cursor: pointer;
   position: relative;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background-image 0.3s ease;
 }
 
 .cell.filled {
