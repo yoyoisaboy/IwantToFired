@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", function () {
     "img/guinea2.jpg",
     "img/guinea3.jpg",
     "img/guinea4.jpg",
-    "img/guinea5.jpg"
+    "img/guinea5.jpg",
+    "img/guinea6.jpg",
+    "img/guinea7.jpg"
   ];
 
   function getRandomImage() {
